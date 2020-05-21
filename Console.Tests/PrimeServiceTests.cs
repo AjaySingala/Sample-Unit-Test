@@ -4,11 +4,11 @@ using Xunit;
 
 namespace Console.Tests
 {
-    public class PrimeServiceTest
+    public class PrimeServiceTests
     {
         private readonly PrimeService _primeService;
 
-        public PrimeServiceTest()
+        public PrimeServiceTests()
         {
             _primeService = new PrimeService();
         }
